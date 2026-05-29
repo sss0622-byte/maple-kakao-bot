@@ -2,7 +2,7 @@
 메이플스토리 카카오 챗봇 스킬 서버
 넥슨 오픈API + 카카오 i 오픈빌더 연동
 """
-
+from urllib.parse import quote
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 import httpx
